@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
-from app.models import User, Student, Course, Comment, Profile
-from app.schemas import UserCreate, UserUpdate, StudentCreate, CourseCreate
+from models import User, Student, Course, Comment, Profile
+from schemas import UserCreate, UserUpdate, StudentCreate, CourseCreate
 
 
 # -----------------------

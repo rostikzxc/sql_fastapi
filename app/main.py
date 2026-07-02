@@ -1,9 +1,9 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 
-from app import crud
-from app.database import SessionLocal, Base, engine
-from app.schemas import (
+import crud
+from database import SessionLocal, Base, engine
+from schemas import (
     UserCreate,
     UserUpdate,
     StudentCreate,
